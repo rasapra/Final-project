@@ -184,6 +184,7 @@ footer li a:hover {
 
   footer {
     text-align: center;
+    padding: 2px;
   }
   nav li {
     display: block;
@@ -192,9 +193,5 @@ footer li a:hover {
   .contact-box,
   .feedback-box {
     max-width: 350px;
-  }
-
-  footer {
-    padding: 2px;
   }
 }
