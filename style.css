@@ -141,7 +141,7 @@ button:hover {
 #scrollToTop {
   position: fixed;
   left: 10px;
-  bottom: 150px;
+  bottom: 155px;
   background-color: rgb(141, 170, 114);
   border: none;
   padding: 10px;
@@ -181,21 +181,23 @@ footer li a:hover {
 }
 
 @media (max-width: 600px) {
+  body {
+    font-family: "Lucida Handwriting cursive";
+  }
   h1 {
     font-size: 30px;
-    color: black;
   }
   h2 {
     font-size: 26px;
   }
   p {
     font-size: 20px;
-    color: black;
   }
-
+  .notes-image {
+    max-width: 60%;
+  }
   footer {
     text-align: center;
-    padding: 2px;
   }
   nav li {
     display: block;
